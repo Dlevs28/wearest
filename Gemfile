@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'bootstrap-sass', '~> 3.3.3'
 
 group :development, :test do
   gem 'debugger'
@@ -17,7 +18,6 @@ group :development, :test do
   gem 'spring'
 
 #wearesoleteam
- gem 'foundation-rails', '~> 5.5.1.0'
  gem 'gibbon', '~> 1.1.5'
  gem 'google_drive', '~> 1.0.0'
  gem 'high_voltage', '~> 2.2.1'
@@ -26,6 +26,8 @@ group :development, :test do
   gem 'better_errors', '~> 1.1.0'
   gem 'quiet_assets', '~> 1.1.0'
   gem 'rails_layout', '~> 1.0.25'
+
+
 end
 end
 
